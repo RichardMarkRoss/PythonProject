@@ -61,7 +61,7 @@ btn_divide = tk.Button(root, text="/", command=lambda: add_to_calculation("/"), 
 btn_divide.grid(row=4, column=4)
 btn_times = tk.Button(root, text="*", command=lambda: add_to_calculation("*"), width=5, font=("Arial", 14))
 btn_times.grid(row=5, column=4)
-
+#
 btn_open = tk.Button(root, text="(", command=lambda: add_to_calculation("("), width=5, font=("Arial", 14))
 btn_open.grid(row=5, column=1)
 btn_close = tk.Button(root, text=")", command=lambda: add_to_calculation(")"), width=5, font=("Arial", 14))
